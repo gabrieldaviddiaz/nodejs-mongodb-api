@@ -3,26 +3,26 @@ POST http://localhost:9000/api/users HTTP/1.1
 Content-Type: application/json
 
 {
-    "name": "hernesto villalobo",
-    "age": "35",
-    "email":"hernestovilla@gmail.com"
+    "name": "jose puertas",
+    "age": "23",
+    "email":"jpuertas@gmail.com"
 }
 
 ###
 GET  http://localhost:9000/api/users HTTP/1.1
 
 ###
-GET  http://localhost:9000/api/users/ HTTP/1.1
+GET  http://localhost:9000/api/users/665c8f062575d8ab7b4b91dc HTTP/1.1
 
 ###
-PUT  http://localhost:9000/api/users HTTP/1.1
+PUT  http://localhost:9000/api/users/665c8f062575d8ab7b4b91dc HTTP/1.1
 Content-Type: application/json
 
 {
-    "name": "nikola tesla",
-    "age": "83",
-    "email":"nikolatesla@gmail.com"
+    "name": "georges trabolta",
+    "age": "28",
+    "email":"georgest@gmail.com"
 }
 
 ###
-DELETE   http://localhost:9000/api/users/ HTTP/1.1
+DELETE  http://localhost:9000/api/users/665f326db894442fe1b1c822 HTTP/1.1
